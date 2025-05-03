@@ -1,0 +1,95 @@
+@import url(./button.css);
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: black;
+}
+
+h1{
+font-size: 4 rem;
+color: beige;
+font-weight: 900;
+text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.app{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+
+}
+
+@font-face{
+font-family:'digital';
+src: url(./font/digital-7.ttf);
+
+}
+
+.inputs{
+ input{
+    font-family: 'digital';
+width: 100px;
+height: 100px;
+border-radius: 5px;
+background: black;
+outline: none;
+border: none;
+color: antiquewhite;
+font-size: 3rem;
+ }
+
+
+}
+
+.timer{
+font-size: 5rem;
+font-family: 'digital';
+color: rgb(250, 5, 5);
+border: 5px solid  rgb(250, 5, 5);
+padding: 20px;
+border-top: 7px solid red;
+border-right: 7px solid red;
+
+
+
+}
+
+@media screen and (max-width:430px){
+.timer{
+    font-size: 3rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
